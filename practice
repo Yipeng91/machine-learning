@@ -1,0 +1,13 @@
+#coding = utf-8
+
+def add_age(self, new_age):
+    pass
+
+test1 = type('Animal', (), {'add_age':add_age})
+
+class Anima2:
+    num = 0
+
+dogl=test1()
+
+print(dog1.add_age)
